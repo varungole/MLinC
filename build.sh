@@ -1,4 +1,5 @@
 #!/bin/sh
 set -xe
-clang -Wall -Wextra -o main main.c
-./main
+#clang -Wall -Wextra -o twice twice.c -lm
+clang -Wall -Wextra -o gates gates.c -lm
+./gates
